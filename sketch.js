@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
   background(220);
-  circle(x,y,100)
+  circle(x,y,75)
   if (x > 300 | x < 100) {
     dx = - dx
   }
