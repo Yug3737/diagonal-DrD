@@ -13,10 +13,10 @@ function draw() {
   circle(x,y,size)
   size = size + ds
   if (size > 95) {
-    ds = -0.25
+    ds = -0.5
   }
   if (size < 75) {
-    ds = .25
+    ds = .5
   }
   if (x > 300 | x < 100) {
     dx = - dx
