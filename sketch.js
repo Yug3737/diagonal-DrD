@@ -4,11 +4,13 @@ function setup() {
   y = 100
   dx = 1
   dy = 1
+  size = 85
+  ds = 0.25
 }
 
 function draw() {
   background(220);
-  circle(x,y,50)
+  circle(x,y,100)
   if (x > 300 | x < 100) {
     dx = - dx
   }
