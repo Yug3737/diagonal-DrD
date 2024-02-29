@@ -25,3 +25,9 @@ jobs:
           pip install pytest
           echo "$ pytest --version"
           pytest --version
+      - name: Test calc library
+        run: |
+          echo "$ pytest test_calc.py"
+          pytest test_calc.py
+          
+
