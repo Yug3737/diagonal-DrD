@@ -33,6 +33,13 @@ jobs:
         run: |
           echo "$ node --version"
           node --version
+      - name: Test parser library
+        run: |
+          echo $ cd tdd-example
+          cd tdd-example
+          echo $ node parser.js        
+          node parser.js
+          
 
 
 
