@@ -19,3 +19,9 @@ jobs:
           ls -la 
           echo $ pwd
           pwd
+      - name: Install pytest
+        run: |
+          echo "$ pip install pytest
+          pip install pytest
+          echo "$ pytest --version"
+          pytest --version
