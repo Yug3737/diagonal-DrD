@@ -11,7 +11,7 @@ function asc(c) {
 function parse(s) {
     n = 0
     decimal = 0;
-    fraction = 0.11
+    fraction = 0.1
     for (i = 0; i < s.length; i++) {
         if (s[i] == ".") {
             decimal = 1
