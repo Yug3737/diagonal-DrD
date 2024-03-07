@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(400, 400);
-  x = 100
+  x = 120
   y = 100
   dx = 1
   dy = 1
@@ -10,14 +10,7 @@ function setup() {
 
 function draw() {
   background(220);
-  circle(x,y,size)
-  size = size + ds
-  if (size > 95) {
-    ds = -0.5
-  }
-  if (size < 75) {
-    ds = .5
-  }
+  circle(x,y,100)
   if (x > 300 | x < 100) {
     dx = - dx
   }
