@@ -2,7 +2,11 @@ name: Unit testing
 
 on:
   push:
+<<<<<<< HEAD
     branches: [ 'main', '*' ]
+=======
+    branches: [ 'main', 'feature-*' ]
+>>>>>>> 0cd892783a0ff59ddd569b73ae3b12e04b7d1800
   workflow_dispatch:
 
 jobs:
